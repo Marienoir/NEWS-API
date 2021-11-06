@@ -34,17 +34,6 @@ export default {
       // this.$route.path = newSource
     },
   },
-  //   watch:{
-
-  //   },
-  //   watch:{
-  //       `$route.query`:{
-  //           handler: function(val){
-  //               const source = val.source
-  //               this.showNewsSource(source)
-  //           }
-  //       }
-  //   },
   mounted() {
     this.showNewsSource();
   },
